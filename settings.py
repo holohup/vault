@@ -6,7 +6,7 @@ from urllib.request import urlopen
 logging.basicConfig(
     format="%(asctime)s %(levelname)s:%(message)s", level=logging.DEBUG
 )
-settings_url = 'your url here'
+settings_url = ''
 
 
 def get(name: str) -> str:
