@@ -1,8 +1,8 @@
 import logging
-from fastapi import FastAPI, Response, status
-from dotenv import load_dotenv
 import os
 
+from dotenv import load_dotenv
+from fastapi import FastAPI, Response, status
 
 load_dotenv()
 app = FastAPI(name='Settings repo')
