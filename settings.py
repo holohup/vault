@@ -18,6 +18,3 @@ def get(name: str) -> str:
         logging.error(f'Could not load settings: {e=}, {url=}, {name=}')
         return None
     return resp[name.upper()]
-
-
-print(get('TG_CHAT_ID'))
